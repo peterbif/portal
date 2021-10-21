@@ -1,0 +1,2 @@
+<?php
+echo '<div class="panel-heading" align="center" style="font-size: 15px; color: #ffffff; background-color: darkgray"><span style="font-size: 20px;">GENERAL NURSING ENTRANCE EXAMINATION COMMITTEE, SCHOOL OF NURSING, UCH, IBADAN. (GNEEC-SONUCHI) </span></div>';
