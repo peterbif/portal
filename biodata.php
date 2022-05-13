@@ -1104,12 +1104,12 @@ else{
                     if(@$recordset_add){echo'<i class="fa fa-check icon" style="font-size: 20px;"></i>';} else{echo '<i class="fa fa-remove icon" style="color: #bf1208; font-size: 20px;"></i></a>';}
                     ;}?>
 
-                <?php if($record_res2['schools_id'] == 8  or $record_res2['schools_id'] == 9 or $record_res2['schools_id'] == 3 or $record_res2['schools_id'] == 12){
+                <?php if($record_res2['schools_id'] == 8  or $record_res2['schools_id'] == 9 or $record_res2['schools_id'] == 3 or $record_res2['schools_id'] == 12  or $record_res2['schools_id'] == 13     ){
                     echo  '<a href="#"style="text-align: left; display:inline;" type="button" class="btn btn-success  btn-md link" data-toggle="modal" data-target="#myModal2">Academic Record';
                     if(@$recordset_edu){echo'<i class="fa fa-check icon" style="font-size: 20px;"></i>';} else{echo '<i class="fa fa-remove icon" style="color: #bf1208; font-size: 20px;"></i></a>';}
                     ;}?>
 
-                <?php if($record_res2['schools_id'] == 8  or $record_res2['schools_id'] == 12  or $record_res2['schools_id'] == 12 or $record_res2['schools_id'] == 9){
+                <?php if($record_res2['schools_id'] == 8  or $record_res2['schools_id'] == 12  or $record_res2['schools_id'] == 12 or $record_res2['schools_id'] == 9  or $record_res2['schools_id'] == 13   ){
                     echo '<a href="#"style="text-align: left; display:inline;" type="button" class="btn btn-success  btn-md link" data-toggle="modal" data-target="#myModalwe"> Work Experience';
                     if(@$recordset_wk){echo '<i class="fa fa-check icon" style="font-size: 20px;"></i>';} else{echo '<i class="fa fa-remove icon" style="color: #bf1208; font-size: 20px;"></i></a>';}
                     ;}?>
@@ -1119,7 +1119,7 @@ else{
                     ;}?>
                 <a href="#" style="text-align: left; display:inline;"  class="btn btn-success  btn-md link" data-toggle="modal" data-target="#myModalnok">Next Of Kin <?php if(@$recordset_nok){echo'<i class="fa fa-check icon" style="font-size: 20px;"></i>';} else{echo '<i class="fa fa-remove icon" style="color: #bf1208; font-size: 20px;"></i>';}?></a>
                 <a href="#" style="text-align: left; display:inline;"  class="btn btn-success  btn-md link" data-toggle="modal" data-target="#myModalref">Referee<?php if(@$recordset_ref){echo'<i class="fa fa-check icon" style="font-size: 20px;"></i>';} else{echo '<i class="fa fa-remove icon" style="color: #bf1208; font-size: 20px;"></i>';}?></a>
-                <?php if($record_res2['schools_id'] == 8  or $record_res2['schools_id'] == 12 or $record_res2['schools_id'] == 9){
+                <?php if($record_res2['schools_id'] == 8  or $record_res2['schools_id'] == 12 or $record_res2['schools_id'] == 9  or $record_res2['schools_id'] == 13   ){
                     echo '<a href="#" style="text-align: left; display:inline;"  class="btn btn-success  btn-md link" data-toggle="modal" data-target="#myModalsp2">Sponsor';
                     if(@$recordset_spon22){echo'<i class="fa fa-check icon" style="font-size: 20px;"></i>';} else{echo '<i class="fa fa-remove icon" style="color: #bf1208; font-size: 20px;"></i></a>';}
                     ;}?>
@@ -1135,13 +1135,13 @@ else{
 
 
 
-                <?php if($record_res2['schools_id'] == 8  or $record_res2['schools_id'] == 12 or $record_res2['schools_id'] == 9 ){
+                <?php if($record_res2['schools_id'] == 8  or $record_res2['schools_id'] == 12 or $record_res2['schools_id'] == 9  or $record_res2['schools_id'] == 13   ){
                     echo '<a href="post_basic_preview_print.php" style="color: #ffffff;font-size: 20px; display:inline;" class="btn btn-success  btn-md link" target="_blank"><i class="fa fa-print icon link">&nbsp;&nbsp;Preview Form</i></a>';}?>
 
-                <?php if($record_res2['schools_id'] == 8  or $record_res2['schools_id'] == 12 or $record_res2['schools_id'] == 9){
+                <?php if($record_res2['schools_id'] == 8  or $record_res2['schools_id'] == 12 or $record_res2['schools_id'] == 9  or $record_res2['schools_id'] == 13   ){
                     echo '<a href="post_basic_print.php" style="color: #ffffff; font-size: 20px; display:inline;" class="btn btn-success  btn-md link" target="_blank"><i class="fa fa-print icon link">&nbsp;&nbsp;&nbsp;&nbsp;Print Form</i></a>';}?>
 
-                <?php if($record_res2['schools_id'] == 8  or $record_res2['schools_id'] == 12 or $record_res2['schools_id'] == 9){
+                <?php if($record_res2['schools_id'] == 8  or $record_res2['schools_id'] == 12 or $record_res2['schools_id'] == 9  or $record_res2['schools_id'] == 13   ){
                     echo '<a href="photo_card2.php" style="color: #ffffff; font-size: 20px; display:inline;" class="btn btn-success  btn-md link" target="_blank"><i class="fa fa-print icon link">&nbsp;&nbsp;&nbsp;&nbsp;Photo Card</i></a>';}?>
 
 
